@@ -42,7 +42,8 @@ package "ECサイト" as target_system {
         mail
         del_flag
         reg_date
-    |oo{
+        }
+    |-o-o-{
     entitiy "購入テーブル" as order <d_purchase> <<T,>> {
     + order_id [PK]
     --
