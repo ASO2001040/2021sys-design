@@ -51,6 +51,6 @@ package "ECサイト" as target_system {
     total_price
     }
   }
-  customer |-oo{ order
+  entity customer |-oo{ entity order
 @enduml
 ```
