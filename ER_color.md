@@ -43,8 +43,8 @@ package "ECサイト" as target_system {
         del_flag
         reg_date
         }
-    |-o-o-{
-    entitiy "購入テーブル" as order <d_purchase> <<T,>> {
+    |oo{
+    entitiy "購入テーブル" as order <d_purchase> <<T,MASTER_MARK_COLOR>> {
     + order_id [PK]
     --
     customer_code [FK]
