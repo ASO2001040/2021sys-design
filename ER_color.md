@@ -42,6 +42,14 @@ package "ECサイト" as target_system {
         mail
         del_flag
         reg_date
+    }|oo{
+    entitiy "購入テーブル" as order <d_purchase> <<T,>> {
+    + order_id [PK]
+    --
+    customer_code [FK]
+    pirchase_date
+    total_price
+    }
     }
   }
 @enduml
