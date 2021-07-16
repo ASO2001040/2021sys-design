@@ -77,6 +77,6 @@ package "ECサイト" as target_system {
   customer |o-o{ order
   order ||--|{ detail
   detail }==|| item
-  category ||-O{ item
+  category ||-o{ item
 @enduml
 ```
