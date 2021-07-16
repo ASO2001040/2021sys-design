@@ -58,6 +58,6 @@ package "ECサイト" as target_system {
     price
     num
   }
-  
+  order ||--o{ detail
 @enduml
 ```
