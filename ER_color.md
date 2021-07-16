@@ -50,7 +50,6 @@ package "ECサイト" as target_system {
     pirchase_date
     total_price
     }
-    }
   }
 @enduml
 ```
